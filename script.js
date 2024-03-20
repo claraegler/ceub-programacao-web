@@ -1,14 +1,30 @@
+let conteudo;
+
+conteudo = document.getElementById("titulos");
+
+conteudo.innerHTML = "<h1>Esse conteudo está vindo do javascript</h1>"
+
+let conteudo2 = document.getElementById("paragrafo-legal");
+conteudo2.innerHTML = "<p>Esse parágrafo vem do javascript</p>"
+
+console.log(typeof(conteudo))
+console.log(conteudo);
+
+
+
+
+
 //Imprima os numeros de 1 a 5 na tela
 // for(let i = 1; i < 5; i += 5) {
 //     console.log(i);
 // }
 
-let i = 1;
+// let i = 1;
 
-while (i < 6) {
-    console.log(i);
-    i++;
-}
+// while (i < 6) {
+//     console.log(i);
+//     i++;
+// }
 
 /*
 let idade = 17;
