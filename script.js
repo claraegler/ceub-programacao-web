@@ -1,3 +1,15 @@
+//Imprima os numeros de 1 a 5 na tela
+// for(let i = 1; i < 5; i += 5) {
+//     console.log(i);
+// }
+
+let i = 1;
+
+while (i < 6) {
+    console.log(i);
+    i++;
+}
+
 /*
 let idade = 17;
 let nome = "joao";
