@@ -1,14 +1,37 @@
-let conteudo;
+function soma(numero1, numero2){
+    return numero1 + numero2;
+}
 
-conteudo = document.getElementById("titulos");
+let resultadoDaSoma = soma(2, 3);
 
-conteudo.innerHTML = "<h1>Esse conteudo está vindo do javascript</h1>"
+console.log(resultadoDaSoma);
 
-let conteudo2 = document.getElementById("paragrafo-legal");
-conteudo2.innerHTML = "<p>Esse parágrafo vem do javascript</p>"
 
-console.log(typeof(conteudo))
-console.log(conteudo);
+
+// let conteudo;
+
+// conteudo = document.getElementById("titulos");
+
+
+
+
+
+// let conteudo_classe;
+// conteudo_classe = document.querySelector(".paragrafo-classe");
+
+// console.log(conteudo_classe);
+
+
+
+
+
+// conteudo.innerHTML = "<h1>Esse conteudo está vindo do javascript</h1>"
+
+// let conteudo2 = document.getElementById("paragrafo-legal");
+// conteudo2.innerHTML = "<p>Esse parágrafo vem do javascript</p>"
+
+// console.log(typeof(conteudo))
+// console.log(conteudo);
 
 
 
